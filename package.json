@@ -1,0 +1,24 @@
+{
+  "name": "byu-is-portfolio-demo",
+  "version": "1.0.0",
+  "description": "This is a MERN web template designed to display personal portfolio and resume for BYU IS students. This program was accomplished for IS405 final project in Fall 2022.\r It will serve as a recource for people would like to build either full stack apps or a personal React app.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/JaneLee8693/BYU-IS-portfolio-demo.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/JaneLee8693/BYU-IS-portfolio-demo/issues"
+  },
+  "homepage": "https://github.com/JaneLee8693/BYU-IS-portfolio-demo#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
