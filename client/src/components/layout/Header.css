@@ -1,23 +1,26 @@
 header {
-  height: 100vh;
+  height: 105vh;
   padding-top: 1rem;
   overflow: hidden;
-  border: blue solid 1px;
 }
 
 .header__container {
   text-align: center;
   height: 100%;
   position: relative;
-  border: red solid 1px;
 }
 
 /* ============ CTA STYLE ============ */
 .cta {
+  height: 5rem;
+  width: 30rem;
   margin-top: 1rem;
+  margin-left: auto;
+  margin-right: auto;
   display: flex;
   gap: 1rem;
   justify-content: center;
+  align-items: center;
 }
 
 /* ============ HEADER SOCIALS STYLE ============ */
@@ -29,7 +32,6 @@ header {
   position: absolute;
   left: 0;
   bottom: 3rem;
-  border: yellow solid 1px;
 }
 
 /* .header__socials::after {
@@ -42,15 +44,14 @@ header {
 /* ============ HEADSHOT STYLE ============ */
 .headshot {
   /* background: linear-gradient(var(--color-primary), transparent); */
-  width: 30rem;
   height: 30rem;
+  width: 30rem;
   position: absolute;
   left: calc(50% - 15rem);
   margin-top: 1rem;
   margin-bottom: 5px;
   border-radius: 2rem;
-  overflow: auto;
-  border: green solid 1px;
+  overflow: hidden;
   /*padding: 5rem 1.5rem 1.5rem 1.5rem;*/
 }
 
@@ -62,7 +63,6 @@ header {
   transform: rotate(90deg);
   font-weight: 300;
   font-size: 0.9rem;
-  border: orange solid 1px;
 }
 
 /* ============= MEDIA QUERIES (MEDIUM DEVICES) =============== */
