@@ -10,6 +10,15 @@
   border-radius: 2rem;
   border: 1px solid transparent;
   transition: var(--transition);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 100%;
+}
+
+.portfolio__item-content {
+  flex-grow: 1;
 }
 
 .portfolio__item:hover {
@@ -29,8 +38,30 @@
 .portfolio__item-cta {
   display: flex;
   gap: 1rem;
+  align-items: flex-end;
   margin-bottom: 1.2rem;
   margin-top: 0.5rem;
+}
+
+.filter-icons {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  width: 60%;
+  margin: 0 auto;
+  gap: 1rem;
+  margin-bottom: 2rem;
+
+  background: var(--color-bg-variant);
+  padding: 1.3rem;
+  border-radius: 2rem;
+  border: 1px solid transparent;
+  transition: var(--transition);
+}
+
+.language__details-icon {
+  color: var(--color-primary);
+  transform: scale(2);
 }
 
 /* ========== MEDIA QUERIES (MEDIUM DEVICES) ========== */

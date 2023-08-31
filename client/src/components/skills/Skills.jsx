@@ -1,5 +1,5 @@
 import React from "react";
-import { TbBrandMeta, TbLetterR } from "react-icons/tb";
+import { TbLetterR } from "react-icons/tb";
 import { FiDatabase } from "react-icons/fi";
 import { FaAws } from "react-icons/fa";
 import { CgInfinity } from "react-icons/cg";
@@ -16,6 +16,7 @@ import {
   SiTableau,
   SiMicrosoftazure,
   SiGooglecloud,
+  SiDotnet,
 } from "react-icons/si";
 import "./Skills.css";
 
@@ -38,6 +39,13 @@ export const Skills = () => {
             </acticle>
             <acticle className="skills__details">
               <SiPython className="skills__details-icon" />
+              <div>
+                <h4>Python</h4>
+                <small className="text-light">Proficient</small>
+              </div>
+            </acticle>
+            <acticle className="skills__details">
+              <SiDotnet className="skills__details-icon" />
               <div>
                 <h4>Python</h4>
                 <small className="text-light">Proficient</small>

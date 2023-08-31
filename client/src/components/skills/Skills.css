@@ -38,6 +38,7 @@
 
 .skills__details-icon {
   color: var(--color-primary);
+  transform: scale(2);
 }
 
 /*Tablet*/
