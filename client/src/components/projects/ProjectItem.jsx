@@ -65,7 +65,7 @@ const ProjectItem = ({
             )}
           </>
         )}
-        {!link && <i>*no code available</i>}
+        {!link && <i>*Code not publicly available</i>}
       </div>
     </article>
   );

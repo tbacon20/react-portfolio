@@ -32,6 +32,7 @@ import {
   SiApache,
   SiHtml5,
 } from "react-icons/si";
+import { CiBacon } from "react-icons/ci";
 import { TbApi } from "react-icons/tb";
 import { FaBrain } from "react-icons/fa";
 import ProjectItem from "./ProjectItem";
@@ -40,15 +41,18 @@ export const Projects = () => {
   const projectData = [
     {
       projectName: "React Portfolio Webpage",
-      link: "https://github.com/tbacon20",
+      link: [
+        "https://github.com/tbacon20/react-portfolio",
+        "https://businesswithbacon.com",
+      ],
       img: IMG1,
       alt: "React Portfolio Webpage",
       projectDescription: [
         "The React Portfolio Webpage is designed to showcase a compilation of various projects and skills.",
         "Utilizing the MERN stack, this project emphasizes front-end development and user interface design.",
       ],
-      icons: [],
-      languages: ["React"],
+      icons: [SiReact, SiJavascript, SiNodedotjs, SiMongodb, SiExpress],
+      languages: ["React", "node.js", "JavaScript", "MongoDB"],
     },
     {
       projectName: "QR MFA Mobile App",
@@ -60,7 +64,7 @@ export const Projects = () => {
         "This mobile app runs on Java, Kotlin, and AWS Amplify. The mobile app uses AWS Cognito for user authentication and AWS Lambda for serverless functions.",
       ],
       icons: [SiJava, SiAndroidstudio, SiAwsamplify, SiAmazonaws],
-      languages: ["Java"],
+      languages: ["Java", "AWS"],
     },
     {
       projectName: "QR MFA Website",
@@ -71,12 +75,19 @@ export const Projects = () => {
         "This QR-based Multi-Factor Authentication (MFA) webpage works with the mobile app to provide an MFA method that voids the need for static credentials on untrusted devices. ",
         "This website runs on React, JavaScript, and AWS Amplify. The website uses AWS Cognito for user authentication, Amazon API Gateway for API requests, and AWS Lambda for serverless functions.",
       ],
-      icons: [SiReact, SiAwsamplify, SiApache, SiAmazonaws, SiJavascript],
-      languages: ["Java"],
+      icons: [
+        SiReact,
+        SiNodedotjs,
+        SiAwsamplify,
+        SiApache,
+        SiAmazonaws,
+        SiJavascript,
+      ],
+      languages: ["React", "AWS", "Node.js", "Javascript"],
     },
     {
       projectName: "Fag-el Gamous Egypt Project",
-      link: "https://github.com/tbacon20",
+      link: ["https://github.com/tbacon20/Intex-2-3"],
       img: IMG1,
       alt: "Fag-el Gamous Egypt Project",
       projectDescription: [
@@ -91,14 +102,13 @@ export const Projects = () => {
         SiMysql,
         SiAmazonaws,
         FaBrain,
-        SiFastapi,
         TbApi,
       ],
-      languages: ["Java"],
+      languages: ["React", "ML", ".NET", "C#", "Azure", "MySQL", "AWS"],
     },
     {
       projectName: "Happy Kidney Health App",
-      link: "https://github.com/tbacon20",
+      link: ["https://github.com/tbacon20/intex-fa22"],
       img: IMG1,
       alt: "Happy Kidney Health App",
       projectDescription: [
@@ -106,11 +116,26 @@ export const Projects = () => {
         "The app leverages machine learning forecasting to predict proper diets based on the user's kidney failure stage and comorbidities, offering valuable insights for maintaining a healthy lifestyle.",
       ],
       icons: [SiPython, SiDjango, SiPostgresql, SiMicrosoftazure, FaBrain],
-      languages: ["Java"],
+      languages: ["Python", "Django", "PostgreSQL", "Azure", "ML"],
+    },
+    {
+      projectName: "Golden Eclipse Jewelry Website",
+      link: [
+        "https://github.com/tbacon20/intex-fa22",
+        "https://goldeneclipse-vue.businesswithbacon.com/",
+      ],
+      img: IMG1,
+      alt: "Golden Eclipse Jewelry Website",
+      projectDescription: [
+        "The golden eclipse jewelry website is a full-stack web application used by a local jewelry business to showcase their products and services.",
+        "The app displays a variety of jewelry products and allows users to add products to their cart.",
+      ],
+      icons: [SiVuedotjs, SiNodedotjs, SiMongodb, SiExpress],
+      languages: ["Vue.js", "Node.js", "MongoDB"],
     },
     {
       projectName: "NFT Blockchain Cryptocurrency",
-      link: "https://github.com/tbacon20",
+      link: null,
       img: IMG1,
       alt: "NFT Blockchain Cryptocurrency",
       projectDescription: [
@@ -118,8 +143,8 @@ export const Projects = () => {
         "This MERN project aims to explore the world of non-fungible tokens (NFTs) and blockchain technology, utilizing the power of .NET and C# to implement a secure and decentralized cryptocurrency solution.",
         "The project demonstrates the creation, validation, and management of blockchain transactions, providing insight into the inner workings of cryptocurrency systems.",
       ],
-      icons: [SiDotnet, SiCsharp, SiJavascript, SiHtml5],
-      languages: ["Java"],
+      icons: [SiDotnet, SiCsharp, SiJavascript, SiMysql, SiHtml5],
+      languages: [".NET", "C#", "Javascript", "MySQL"],
     },
     {
       projectName: "Amazon Lex Chatbot",
@@ -131,11 +156,11 @@ export const Projects = () => {
         "The chat bot uses natural language processing and a series of AWS Lambda functions to respond to user input.",
       ],
       icons: [SiAmazonaws, SiPython],
-      languages: ["Java"],
+      languages: ["AWS", "Python"],
     },
     {
       projectName: "Insurance Price Estimator",
-      link: "https://github.com/tbacon20",
+      link: null,
       img: IMG1,
       alt: "Insurance Price Estimator",
       projectDescription: [
@@ -143,7 +168,19 @@ export const Projects = () => {
         "FastAPI was used to set up the backend API that interacts with the machine learning models, ensuring quick and efficient responses.",
       ],
       icons: [FaBrain, SiPostgresql, SiPython, SiFastapi, TbApi],
-      languages: ["Java"],
+      languages: ["ML", "Python", "PostgreSQL"],
+    },
+    {
+      projectName: "Power Lifting SageMaker Prediction Project",
+      link: null,
+      img: IMG1,
+      alt: "Power Lifting SageMaker Prediction Project",
+      projectDescription: [
+        "This project showcases the application of machine learning in the domain of weight lifting.",
+        "This project used Amazon API Gateway, AWS Lambda Functions, and Amazon SageMaker to set up the backend API that interacts with the machine learning models, then returning predicted outcomes.",
+      ],
+      icons: [FaBrain, SiPostgresql, SiPython, SiAmazonaws, TbApi],
+      languages: ["ML", "Python", "PostgreSQL"],
     },
     {
       projectName: "Photos With Ann",
@@ -156,11 +193,11 @@ export const Projects = () => {
         "It leverages the power of server-side rendering and real-time updates to deliver a seamless browsing experience.",
       ],
       icons: [SiReact, SiJavascript, SiNodedotjs, SiGooglecloud, TbApi],
-      languages: ["Java"],
+      languages: ["React", "Node.js", "JavaScript", "MongoDB", "Google Cloud"],
     },
     {
       projectName: "Concert Trip Planner",
-      link: "https://github.com/tbacon20",
+      link: null,
       img: IMG1,
       alt: "Concert Trip Planner",
       projectDescription: [
@@ -168,35 +205,43 @@ export const Projects = () => {
         "Utilizing a tech stack that includes React, JavaScript, Node.js, and Google Cloud, this project aims to streamline the process of organizing concert-related information.",
       ],
       icons: [TbApi, SiReact, SiJavascript, SiNodedotjs, SiGooglecloud],
-      languages: ["Java"],
+      languages: ["React", "Node.js", "JavaScript", "Google Cloud", "AWS"],
     },
     {
       projectName: "The Bacon Bookstore",
-      link: "https://github.com/tbacon20",
+      link: ["https://github.com/tbacon20/Bacon-Bookstore"],
       img: IMG1,
       alt: "The Bacon Bookstore",
       projectDescription: [
         "The Bacon Bookstore is a MERN project created to showcase a variety of skills and technologies.",
         "This project serves as a demonstration of front-end and back-end development techniques using the MERN stack.",
       ],
-      icons: [],
-      languages: ["Java"],
+      icons: [SiDotnet, SiCsharp, SiHtml5, SiMysql, SiJavascript],
+      languages: [
+        ".NET",
+        "C#",
+        "Node.js",
+        "JavaScript",
+        "MySQL",
+        "AWS",
+        "Azure",
+      ],
     },
     {
       projectName: "Python Wordle Project",
-      link: "https://github.com/tbacon20/wordle",
+      link: ["https://github.com/tbacon20/wordle"],
       img: IMG3,
       alt: "Python Wordle Project",
       projectDescription: [
         "The Python Wordle Project is a Python-based game that allows users to play the popular New York Times Wordle game.",
         "This project focuses on providing an interactive and enjoyable word game experience.",
       ],
-      icons: [],
-      languages: ["Java"],
+      icons: [SiPython, SiDjango, SiPostgresql],
+      languages: ["Python", "Django", "PostgreSQL"],
     },
     {
       projectName: "GoLang Random Team Generator",
-      link: "https://github.com/tbacon20/GoTeamGenerator",
+      link: ["https://github.com/tbacon20/GoTeamGenerator"],
       img: IMG2,
       alt: "GoLang Random Team Generator",
       projectDescription: [
@@ -204,35 +249,35 @@ export const Projects = () => {
         "This project showcases GoLang programming and CSV parsing capabilities.",
       ],
       icons: [],
-      languages: ["Java"],
+      languages: [],
     },
     {
       projectName: "Java RoboCode Bot",
-      link: "https://github.com/tbacon20/Robocode",
+      link: ["https://github.com/tbacon20/Robocode"],
       img: IMG4,
       alt: "Java RoboCode Bot",
       projectDescription: [
         "The Java RoboCode Bot project is an exciting Java-based project where you create and program robots to battle against other robots.",
         "This project explores Java programming and simulation concepts.",
       ],
-      icons: [],
+      icons: [SiJava],
       languages: ["Java"],
     },
     {
       projectName: "Java Random Team Generator",
-      link: "https://github.com/tbacon20/JavaTeamGenerator",
+      link: ["https://github.com/tbacon20/JavaTeamGenerator"],
       img: IMG2,
       alt: "Java Random Team Generator",
       projectDescription: [
         "The Java Random Team Generator project generates random teams from a CSV list of student names.",
         "This project emphasizes Java programming and CSV parsing capabilities.",
       ],
-      icons: [],
+      icons: [SiJava],
       languages: ["Java"],
     },
     {
       projectName: "Payroll Web Portal",
-      link: "https://github.com/audreyjy/EmployeeDashboardProject",
+      link: ["https://github.com/audreyjy/EmployeeDashboardProject"],
       img: IMG5,
       alt: "Payroll Web Portal",
       projectDescription: [
@@ -240,11 +285,11 @@ export const Projects = () => {
         "This project showcases full-stack development skills using Django, PostgreSQL, and Tableau.",
       ],
       icons: [SiTableau, SiPython, SiDjango, SiPostgresql],
-      languages: ["Java"],
+      languages: ["Python", "Django", "PostgreSQL"],
     },
     {
       projectName: "Museum of Ordinary Objects",
-      link: "https://github.com/JaneLee8693/BYU-IS-portfolio-demo",
+      link: ["https://github.com/JaneLee8693/BYU-IS-portfolio-demo"],
       img: IMG1,
       alt: "Museum of Ordinary Objects",
       projectDescription: [
@@ -252,11 +297,11 @@ export const Projects = () => {
         "This project serves as a showcase for front-end and back-end development using the MERN stack.",
       ],
       icons: [SiVuedotjs, SiNodedotjs, SiMongodb, SiExpress],
-      languages: ["Java"],
+      languages: ["Vue.js", "Node.js", "MongoDB", "Express"],
     },
     {
       projectName: "Photographer Portfolio",
-      link: "https://github.com/tbacon20",
+      link: ["https://github.com/tbacon20/PhotographyPortfolio"],
       img: IMG1,
       alt: "Photographer Portfolio",
       projectDescription: [
@@ -264,11 +309,14 @@ export const Projects = () => {
         "This project highlights skills in Vue.js, JavaScript, Node.js, and AngularJS.",
       ],
       icons: [SiVuedotjs, SiJavascript, SiNodedotjs, SiAngularjs],
-      languages: ["Java"],
+      languages: ["Vue.js", "Node.js", "JavaScript", "MongoDB"],
     },
     {
       projectName: "Comic Page",
-      link: "https://github.com/tbacon20",
+      link: [
+        "https://github.com/tbacon20/VueCartoonBrowser",
+        "http://lab3.businesswithbacon.com/",
+      ],
       img: IMG1,
       alt: "Comic Page",
       projectDescription: [
@@ -276,11 +324,11 @@ export const Projects = () => {
         "This project showcases front-end and back-end development skills using the MERN stack.",
       ],
       icons: [SiVuedotjs, SiAngularjs, SiJavascript, SiNodedotjs, SiMongodb],
-      languages: ["Java"],
+      languages: ["Vue.js", "Node.js", "JavaScript", "MongoDB"],
     },
     {
       projectName: "Vector Math Calculator",
-      link: "https://github.com/tbacon20",
+      link: null,
       img: IMG1,
       alt: "Vector Math Calculator",
       projectDescription: [
@@ -288,8 +336,29 @@ export const Projects = () => {
         "Utilizing the C++ programming language, this calculator provides functionality for vector addition, subtraction, dot product, cross product, and more.",
       ],
       icons: [SiCplusplus],
-      languages: ["Java"],
+      languages: ["C++"],
     },
+  ];
+
+  const languages = [
+    { language: null, icon: CiBacon },
+    { language: "React", icon: SiReact },
+    { language: "Node.js", icon: SiNodedotjs },
+    { language: "ML", icon: FaBrain },
+    { language: "AWS", icon: SiAmazonaws },
+    { language: "Google Cloud", icon: SiGooglecloud },
+    { language: "Azure", icon: SiMicrosoftazure },
+    { language: "Python", icon: SiPython },
+    { language: "Django", icon: SiDjango },
+    { language: "Java", icon: SiJava },
+    { language: "JavaScript", icon: SiJavascript },
+    { language: "Vue.js", icon: SiVuedotjs },
+    { language: "C#", icon: SiCsharp },
+    { language: ".NET", icon: SiDotnet },
+    { language: "C++", icon: SiCplusplus },
+    { language: "PostgreSQL", icon: SiPostgresql },
+    { language: "MySQL", icon: SiMysql },
+    { language: "MongoDB", icon: SiMongodb },
   ];
 
   const [selectedLanguage, setSelectedLanguage] = useState(null);
@@ -302,44 +371,28 @@ export const Projects = () => {
     <section id="projects">
       <h5>My Recent Work</h5>
       <h2>Projects</h2>
+
       <div className="filter-icons">
-        <h3>Select a language...</h3>
-        <span
-          onClick={() => handleFilter(null)}
-          className="language__details-icon"
-        >
-          All
-        </span>
-        <span onClick={() => handleFilter("React")}>
-          <SiReact className="language__details-icon" />
-        </span>
-        <span onClick={() => handleFilter("Java")}>
-          <SiJava className="language__details-icon" />
-        </span>
-        <span onClick={() => handleFilter("JavaScript")}>
-          <SiJavascript className="language__details-icon" />
-        </span>
-        <span onClick={() => handleFilter("C#")}>
-          <SiCsharp className="language__details-icon" />
-        </span>
-        <span onClick={() => handleFilter(".NET")}>
-          <SiDotnet className="language__details-icon" />
-        </span>
-        <span onClick={() => handleFilter("C++")}>
-          <SiCplusplus className="language__details-icon" />
-        </span>
-        <span onClick={() => handleFilter("Python")}>
-          <SiPython className="language__details-icon" />
-        </span>
-        <span onClick={() => handleFilter("Django")}>
-          <SiDjango className="language__details-icon" />
-        </span>
-        <span onClick={() => handleFilter("PostgreSQL")}>
-          <SiPostgresql className="language__details-icon" />
-        </span>
-        <span onClick={() => handleFilter("MySQL")}>
-          <SiMysql className="language__details-icon" />
-        </span>
+        <div className="filter-icons-title">
+          <h3>Select a language or framework...</h3>
+          <h5>
+            Currently displaying {!selectedLanguage ? "All" : selectedLanguage}{" "}
+            projects
+          </h5>
+        </div>
+
+        <div className="filter-icons-icons">
+          {languages.map((language) => {
+            return (
+              <span
+                onClick={() => handleFilter(language.language)}
+                className="language__details-icon"
+              >
+                {language.icon()}
+              </span>
+            );
+          })}
+        </div>
       </div>
 
       <div className="container portfolio__container">
