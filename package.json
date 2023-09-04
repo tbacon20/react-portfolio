@@ -8,14 +8,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/JaneLee8693/BYU-IS-portfolio-demo.git"
+    "url": "git+https://github.com/tbacon20@gmail.com/react-portfolio.git"
   },
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/JaneLee8693/BYU-IS-portfolio-demo/issues"
+    "url": "https://github.com/tbacon20/react-portfolio/issues"
   },
-  "homepage": "https://github.com/JaneLee8693/BYU-IS-portfolio-demo#readme",
+  "homepage": "https://github.com/tbacon20/react-portfolio#readme",
   "dependencies": {
     "cors": "^2.8.5",
     "dotenv": "^16.0.3",
