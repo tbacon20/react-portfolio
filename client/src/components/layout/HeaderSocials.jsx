@@ -1,7 +1,8 @@
 import React from "react";
+import Resume from "../../assets/files/Tanner Bacon Resume.pdf";
 import { BsLinkedin } from "react-icons/bs";
 import { FaGithub } from "react-icons/fa";
-import { MdEmail } from "react-icons/md";
+import { HiDocumentDownload } from "react-icons/hi";
 
 const HeaderSocials = () => {
   return (
@@ -16,8 +17,8 @@ const HeaderSocials = () => {
       <a href="https://github.com/tbacon20" target="_blank" rel="noreferrer">
         <FaGithub />
       </a>
-      <a href="tannerbacon20@gmail.com" target="_blank" rel="noreferrer">
-        <MdEmail />
+      <a href={Resume} download>
+        <HiDocumentDownload />
       </a>
     </div>
   );

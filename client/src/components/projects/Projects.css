@@ -112,4 +112,9 @@
   .filter-icons {
     width: 90%;
   }
+
+  .language__details-icon {
+    transform: scale(1);
+    margin: 1rem;
+  }
 }
