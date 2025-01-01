@@ -42,6 +42,36 @@ export const Projects = () => {
     {
       projectName: "React Portfolio Webpage",
       link: [
+        "https://github.com/mkbarnum/hymnle",
+        "https://hymnle.com",
+      ],
+      img: IMG1,
+      alt: "Hymnle Game",
+      projectDescription: [
+        "Heardle from heardlewordle.io is a web-based game that challenges users to guess a song based on a short melody.",
+        "This game has the functionality of heardle but for LDS hymns.",
+      ],
+      icons: [SiReact, SiJavascript, SiNodedotjs, SiAmazonaws, SiExpress],
+      languages: ["React", "node.js", "JavaScript", "AWS"],
+    },
+    {
+      projectName: "Amazon CloudAtlas",
+      link: [
+        "https://github.com/tbacon20",
+        "https://amazoncloudatlas.com",
+      ],
+      img: IMG1,
+      alt: "Amazon CloudAtlas",
+      projectDescription: [
+        "Ammazon CloudAtlas is an AI-powered web application that gives users an interative map of recommended AWS services and integrations for their use case.",
+        "This game has the functionality of heardle but for LDS hymns.",
+      ],
+      icons: [SiReact, SiJavascript, SiNodedotjs, SiAmazonaws, FaBrain],
+      languages: ["React", "node.js", "JavaScript", "AWS", "AI"],
+    },
+    {
+      projectName: "React Portfolio Webpage",
+      link: [
         "https://github.com/tbacon20/react-portfolio",
         "https://businesswithbacon.com",
       ],
