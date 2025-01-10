@@ -72,6 +72,22 @@ export const Projects = () => {
       languages: ["React", "node.js", "JavaScript", "AWS"],
     },
     {
+      projectName: "React Portfolio Webpage",
+      link: [
+        "https://github.com/mkbarnum/hymnle",
+        "https://hymnle.com",
+      ],
+      img: IMG1,
+      alt: "Hymnle Game",
+      projectDescription: [
+        "Heardle from heardlewordle.io is a web-based game that challenges users to guess a song based on a short melody.",
+        "This game has the functionality of heardle but for LDS hymns.",
+        "This app has over 12,000 monthly users."
+      ],
+      icons: [SiReact, SiJavascript, SiNodedotjs, SiAmazonaws, SiExpress],
+      languages: ["React", "node.js", "JavaScript", "AWS"],
+    },
+    {
       projectName: "Amazon CloudAtlas",
       link: [
         "https://github.com/tbacon20",
