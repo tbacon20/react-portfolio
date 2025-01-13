@@ -71,6 +71,21 @@ export const Projects = () => {
       languages: ["React", "node.js", "JavaScript", "AWS", "AI"],
     },
     {
+      projectName: "Amazon CloudAtlas",
+      link: [
+        "https://github.com/tbacon20",
+        "https://amazoncloudatlas.com",
+      ],
+      img: IMG1,
+      alt: "Amazon CloudAtlas",
+      projectDescription: [
+        "Ammazon CloudAtlas is an AI-powered web application that gives users an interative map of recommended AWS services and integrations for their use case.",
+        "This game has the functionality of heardle but for LDS hymns.",
+      ],
+      icons: [SiReact, SiJavascript, SiNodedotjs, SiAmazonaws, FaBrain],
+      languages: ["React", "node.js", "JavaScript", "AWS", "AI"],
+    },
+    {
       projectName: "React Portfolio Webpage",
       link: [
         "https://github.com/tbacon20/react-portfolio",
