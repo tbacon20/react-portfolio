@@ -100,21 +100,7 @@ export const Projects = () => {
       icons: [SiReact, SiJavascript, SiNodedotjs, SiMongodb, SiExpress],
       languages: ["React", "node.js", "JavaScript", "MongoDB"],
     },
-    {
-      projectName: "React Portfolio Webpage",
-      link: [
-        "https://github.com/tbacon20/react-portfolio",
-        "https://businesswithbacon.com",
-      ],
-      img: IMG1,
-      alt: "React Portfolio Webpage",
-      projectDescription: [
-        "The React Portfolio Webpage is designed to showcase a compilation of various projects and skills.",
-        "Utilizing the MERN stack, this project emphasizes front-end development and user interface design.",
-      ],
-      icons: [SiReact, SiJavascript, SiNodedotjs, SiMongodb, SiExpress],
-      languages: ["React", "node.js", "JavaScript", "MongoDB"],
-    },
+
     {
       projectName: "QR MFA Mobile App",
       link: ["https://github.com/tbacon20/AmplifyMobileApp"],
