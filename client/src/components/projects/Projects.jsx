@@ -100,7 +100,18 @@ export const Projects = () => {
       icons: [SiReact, SiJavascript, SiNodedotjs, SiMongodb, SiExpress],
       languages: ["React", "node.js", "JavaScript", "MongoDB"],
     },
-
+    {
+      projectName: "QR MFA Mobile App",
+      link: ["https://github.com/tbacon20/AmplifyMobileApp"],
+      img: IMG1,
+      alt: "QR MFA Mobile App",
+      projectDescription: [
+        "This mobile app allows a user to sign in to a website using a QR code. The user can then scan the QR code with the mobile app and sign in to the website.",
+        "This mobile app runs on Java, Kotlin, and AWS Amplify. The mobile app uses AWS Cognito for user authentication and AWS Lambda for serverless functions.",
+      ],
+      icons: [SiJava, SiAndroidstudio, SiAwsamplify, SiAmazonaws],
+      languages: ["Java", "AWS"],
+    },
     {
       projectName: "QR MFA Mobile App",
       link: ["https://github.com/tbacon20/AmplifyMobileApp"],
